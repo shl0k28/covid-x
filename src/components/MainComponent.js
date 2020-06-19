@@ -1,22 +1,31 @@
 import React from 'react';
+
+//Page Components
 import About from './info/AboutComponent';
-import Login from './auth/LoginComponent';
+//import Login from './auth/LoginComponent';
+import Signup from './auth/SignupComponent';
+import NavbarComponent from './NavbarComponent';
+
+//custom styling
 import '.././styles.css';
 
 function Main(){
 	return(
-		<div className="container-background align-self-center">
+	<>
+		<NavbarComponent />
+		<div className="container-background align-self-center">		
 			<div className="container login-component">
 				<div className="row">
 					<div className="col-12 col-sm-6">
 						<About />
 					</div>
 					<div className="col-12 col-sm-6">
-						<Login />
+						<Signup />
 					</div>
 				</div>
 			</div>
 		</div>
+	</>
 	)
 }
 

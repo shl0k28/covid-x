@@ -11,6 +11,7 @@ function About(){
 				we ensure data accuracy and transparency.
 				</strong>
 			</p>
+			<hr />
 		</div>
 	)
 }

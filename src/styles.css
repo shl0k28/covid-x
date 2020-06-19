@@ -7,10 +7,21 @@
   color: white;
 }
 
-.login-component {
-  margin: 20px;
-}
-
 .card {
   color: #000;
+}
+
+.card-header-styling {
+	background-color: #282c34;
+	color: #fff;
+	align-items: center;
+	text-align: center;
+}
+
+.button-styling {
+	background-color: #282c34;
+}
+
+.form-style {
+	font-size: 17px;
 }
