@@ -5,10 +5,13 @@ function About(){
 		<div>
 			<p>
 				<strong>
-				Our goal is Covid Extermination.
-				Hence the name Covid-X.
-				Through advanced blockchain technology and cloud computing,
-				we ensure data accuracy and transparency.
+					<h3>
+						Our goal @ <i><b>INFINITX</b></i> is to solve 
+						<br />
+						Problems.
+					</h3>
+					<hr />
+					<h2>Bringing you COVID-X</h2>
 				</strong>
 			</p>
 			<hr />

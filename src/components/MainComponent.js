@@ -1,31 +1,19 @@
 import React from 'react';
+import {BrowserRouter,Switch,Route} from 'react-router-dom';
 
-//Page Components
-import About from './info/AboutComponent';
-//import Login from './auth/LoginComponent';
-import Signup from './auth/SignupComponent';
-import NavbarComponent from './NavbarComponent';
-
-//custom styling
-import '.././styles.css';
+import LoginPage from './LoginPage';
+import SignupPage from './SignupPage';
 
 function Main(){
 	return(
-	<>
-		<NavbarComponent />
-		<div className="container-background align-self-center">		
-			<div className="container login-component">
-				<div className="row">
-					<div className="col-12 col-sm-6">
-						<About />
-					</div>
-					<div className="col-12 col-sm-6">
-						<Signup />
-					</div>
-				</div>
-			</div>
+		<div>
+			<BrowserRouter>
+				<Switch>
+					<Route path='/home' component={LoginPage} />
+					<Route path='/signup' component={SignupPage} />
+				</Switch>
+			</BrowserRouter>
 		</div>
-	</>
 	)
 }
 

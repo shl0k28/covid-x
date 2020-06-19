@@ -2,8 +2,8 @@ import React from 'react';
 
 //custom styling
 import { Card ,CardHeader ,CardBody, Button, Form, FormGroup, Label, Input } from 'reactstrap';
-import '../.././styles.css';
 import { FaFacebook } from "react-icons/fa";
+import '../.././styles.css';
 
 function Signup(props){
 	return(
@@ -35,7 +35,7 @@ function Signup(props){
       							<Button className="button-styling">Sign Up</Button>
       						</div>
       						<div className="col-sm-7">
-      							<Button className="button-styling">
+      							<Button className="button-styling" href="/home">
       								Already a member ? Login
       							</Button>
       						</div>
