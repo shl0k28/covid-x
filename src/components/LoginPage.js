@@ -3,7 +3,7 @@ import React from 'react';
 //Page Components
 import About from './info/AboutComponent';
 import Login from './auth/LoginComponent';
-import NavbarComponent from './NavbarComponent';
+import NavbarComponent from './info/NavbarComponent';
 
 //custom styling
 import '.././styles.css';

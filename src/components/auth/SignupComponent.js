@@ -35,7 +35,7 @@ function Signup(props){
       							<Button className="button-styling">Sign Up</Button>
       						</div>
       						<div className="col-sm-7">
-      							<Button className="button-styling" href="/home">
+      							<Button className="button-styling" href="/login">
       								Already a member ? Login
       							</Button>
       						</div>

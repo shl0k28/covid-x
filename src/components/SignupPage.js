@@ -3,15 +3,15 @@ import React from 'react';
 //Page Components
 import About from './info/AboutComponent';
 import Signup from './auth/SignupComponent';
-import NavbarComponent from './NavbarComponent';
+import NavbarComponent from './info/NavbarComponent';
 
 //custom styling
 import '.././styles.css';
 
-function SignupPage(props){
+function SignupPage(){
 	return(
 	<>
-		<NavbarComponent />
+		<NavbarComponent/>
 		<div className="container-background align-self-center">		
 			<div className="container login-component">
 				<div className="row">
